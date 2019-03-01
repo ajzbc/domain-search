@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Domain Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+</head>
+
+<body>
+    <main>
+        <h2>Domain Search</h2>
+        <p>Created by <a href="https://ajzbc.com">Andrew Jazbec</a>&nbsp&nbsp&nbsp<a href="https://github.com/ajzbc/domain-search">Source Code</a></p>
+        <form class="input" id="input">
+            <input id="name" type="text" autocomplete="off" name="name" placeholder="Enter a name to search" autofocus>
+            <button>Check</button>
+        </form>
+        <div id="results" class="results">
+            <a id="domain" class="domain" href="#">helloworld.com</a>
+            <a id="domain" class="domain" href="#">helloworld.com</a>
+        </div>
+        <div class="push"></div>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js" integrity="sha256-I5XOWZu6gbewMSB9UR88y0GmiJi9AsQcCzUpA/MBNnA="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
