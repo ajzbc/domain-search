@@ -1,6 +1,8 @@
 # domain-search
 🔍 Client side domain availability search
 
+Using [Cloudflare DNS Query](https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/)
+
 ### [Live Demo](https://ajzbc.com/domain-search)
 
 #### Todo: Implement search on input change eleminating the need for the `Check` button
